@@ -3,13 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>MediaLead | Welcome</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/foundation-icons.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
 
+  <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Меню</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+          <!-- Left Nav Section -->
+          <ul class="left">
+              <li><a href="index.html">Главнвя</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li class="has-dropdown">
+                  <a href="#">Услуги</a>
+                  <ul class="dropdown">
+                      <li><a href="service.html">Internet маркетинг</a></li>
+                      <li><a href="service.html">SEO продвижение</a></li>
+                      <li><a href="service.html">Создание Web сайтов</a></li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Контакты</a></li>
+          </ul>
+      </section>
+  </nav>
+
+
+
+  <!-- SCRIPTS -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
