@@ -1,0 +1,54 @@
+body {
+		background: #f4f4f4;
+}
+
+.header {
+	border-bottom: 3px solid #ccc;
+}
+
+.social {
+	float: right;
+	padding-top: 25px;
+}
+
+.social img {
+	width: 40px;
+}
+
+.showcase {
+	padding: 40px 0;
+	height: 400px;
+	margin-bottom: 20px;
+	background: #f4f4f4 url("../img/showcase.jpg") no-repeat top center;
+	border-bottom: 3px solid #ccc;
+	background-size: cover;
+}
+
+.showcase h1 {
+	font-size: 50px;
+}
+
+.showcase p {
+	font-size: 22px;
+	width: 90%;
+}
+
+.boxes {
+	text-align: center;
+}
+
+.boxes i {
+	display: block;
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	height: 80px;
+	padding-top: 30px;
+	font-style: italic;
+}
