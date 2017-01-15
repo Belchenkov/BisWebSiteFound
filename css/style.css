@@ -52,3 +52,25 @@ footer {
 	padding-top: 30px;
 	font-style: italic;
 }
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.side-menu h4 {
+	background-color: #42a5db;
+	color: #fff;
+	padding: 10px;
+}
+
+.accordion .accordion-navigation > a,
+.accordion dd > a {
+	background-color: #42a5db;
+	color: #fff;
+}
+
+.accordion .accordion-navigation > a:hover,
+.accordion dd > a:hover {
+	background-color: #333;
+	color: #fff;
+}
